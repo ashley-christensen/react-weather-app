@@ -11,9 +11,9 @@
 :root {
   --rad: 0.7rem;
   --dur: 0.3s;
-  --color-dark: #557b83;
-  --color-light: #a2d5ab;
-  --color-brand: #39aea9;
+  --color-dark: #247881;
+  --color-light: #fff;
+  --color-brand: #00ffc6;
   --font-fam: 'Lato', sans-serif;
   --height: 5rem;
   --btn-width: 6rem;
@@ -55,7 +55,7 @@ body {
 .widget .weatherInfo {
   flex: 0 0 70%;
   height: 40%;
-  background: #080705;
+  background: #e78ea9;
   display: flex;
   align-items: center;
   color: white;
@@ -154,14 +154,14 @@ body {
 }
 
 .searchTerm:focus {
-  color: #00b4cc;
+  color: #b9f8d3;
 }
 
 .searchButton {
   width: 80px;
   height: 32px;
   border: none;
-  background: #2fdd92;
+  background: #40dfef;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -181,13 +181,9 @@ body {
   text-align: center;
   margin-top: -150px;
   margin-bottom: 50px;
-}
-
-/*Resize the wrap to see the search bar change!*/
-/* .wrap {
   width: 30%;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
+}
