@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import WeatherDetails from './WeatherDetails';
 
 const SearchMain = () => {
-  const [searchTerm, setSearchTerm] = useState('oakland');
+  const [searchTerm, setSearchTerm] = useState('Brentwood');
   const [tempInfo, setTempInfo] = useState({});
 
   const getWeatherInfo = async () => {
